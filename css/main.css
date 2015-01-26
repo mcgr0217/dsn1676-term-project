@@ -34,3 +34,44 @@ html {
     animation: box-rotate 6s ease-in-out infinite alternate;
     transform: rotate(60deg);
 }
+
+@keyframes box-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes box-rotate {
+    0% {
+        -webkit-transform: translateY(0);
+    }
+    20% {
+        -webkit-transform: translateY(40px);
+    }
+    30% {
+        -webkit-transform: translateX(50px);
+    }
+    40% {
+        -webkit-transform: translateX(80px);
+    }
+    45% {
+        -webkit-transform: translateY(100px);
+    }
+    50% {
+        -webkit-transform: translateY(20px);
+    }
+    60% {
+        -webkit-transform: translateY(70px);
+    }
+    70% {
+        -webkit-transform: translateX(100px);
+    }
+    80% {
+        -webkit-transform: translateX(60px);
+    }
+    92% {
+        -webkit-transform: translateY(80px);
+    }
+    100% {
+        -webkit-transform: translateY(30px);
+    }
+}
