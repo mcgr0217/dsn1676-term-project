@@ -24,3 +24,13 @@ html {
     text-decoration-line: none;
     display: block;
 }
+
+.design {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 150px;
+    -webkit-animation: box-rotate 6s ease-in-out infinite alternate;
+    animation: box-rotate 6s ease-in-out infinite alternate;
+    transform: rotate(60deg);
+}
