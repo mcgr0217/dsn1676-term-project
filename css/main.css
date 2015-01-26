@@ -7,6 +7,20 @@ html {
 }
 
 .logo {
-    padding: 2rem;
+    padding-left: 1rem;
     text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.nav {
+    float: right;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px;
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-decoration-line: none;
+    display: block;
 }
