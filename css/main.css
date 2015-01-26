@@ -5,3 +5,8 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.logo {
+    padding: 2rem;
+    text-align: center;
+}
