@@ -9,7 +9,7 @@ html {
 .logo {
     padding-left: 1rem;
     text-align: center;
-    width: 100%;
+    width: 80%;
     float: left;
 }
 
@@ -18,60 +18,43 @@ html {
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 30px;
-    letter-spacing: 3px;
+    margin: 3px;
+    letter-spacing: 4px;
     font-size: 12px;
-    text-decoration-line: none;
+    text-decoration: none;
     display: block;
 }
 
-.design {
+.nav a {
+    text-decoration: none;
+    color: #393c97;
+}
+
+.logo {
     position: absolute;
-    top: 200px;
-    left: 100px;
-    width: 150px;
+    width: 35%;
+    height: 35%;
+    left: 120px;
+    top: 50px;
     -webkit-animation: box-rotate 6s ease-in-out infinite alternate;
-    animation: box-rotate 6s ease-in-out infinite alternate;
-    transform: rotate(60deg);
+    -webkit-animation: pulse 20s linear infinite;
+    animation: pulse 20s linear infinite;
 }
 
-@keyframes box-rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); }
+    20% { -webkit-transform: scale(1.2); }
 }
 
-@-webkit-keyframes box-rotate {
-    0% {
-        -webkit-transform: translateY(0);
-    }
-    20% {
-        -webkit-transform: translateY(40px);
-    }
-    30% {
-        -webkit-transform: translateX(50px);
-    }
-    40% {
-        -webkit-transform: translateX(80px);
-    }
-    45% {
-        -webkit-transform: translateY(100px);
-    }
-    50% {
-        -webkit-transform: translateY(20px);
-    }
-    60% {
-        -webkit-transform: translateY(70px);
-    }
-    70% {
-        -webkit-transform: translateX(100px);
-    }
-    80% {
-        -webkit-transform: translateX(60px);
-    }
-    92% {
-        -webkit-transform: translateY(80px);
-    }
-    100% {
-        -webkit-transform: translateY(30px);
-    }
+@keyframes pulse {
+    0% { transform: scale(1); }
+    20% { transform: scale(1.2); }
+}
+
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
