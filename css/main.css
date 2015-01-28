@@ -25,6 +25,16 @@ html {
     display: block;
 }
 
+.facebook {
+    width: 15%;
+    left: 150px;
+    position: absolute;
+    text-align: center;
+    -webkit-animation: box-rotate 4s ease-in-out infinite alternate;
+    -webkit-animation: pulse 4s linear infinite;
+    animation: pulse 20s linear infinite;
+}
+
 .nav a {
     text-decoration: none;
     color: #393c97;
