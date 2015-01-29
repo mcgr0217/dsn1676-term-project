@@ -18,52 +18,13 @@ html {
     display: block;
 }
 
-.facebook {
-    width: 10%;
-    margin-top: 20px;
-    margin-left: 1px;
-    margin-right: 1px;
-    -webkit-animation: box-bounce 20s linear infinite;
-    animation: box-bounce 20s linear infinite;
+.circle {
+    margin-left: 65px;
+    margin-top: 80px;
+    width: 100px;
+    -webkit-animation: pulse 20s linear infinite;
+    animation: pulse 20s linear infinite;
 }
-
-.t {
-    width: 10%;
-    margin-top: 5px;
-    margin-left: 1px;
-    margin-right: 1px;
-    -webkit-animation: box-bounce 20s linear infinite;
-    animation: box-bounce 20s linear infinite;
-}
-
-.animated { 
-    -webkit-animation-duration: 6s; 
-    animation-duration: infinite 6s; 
-    -webkit-animation-fill-mode: both; 
-    animation-fill-mode: both; 
-	width: 80px;
-	height: auto;
-	margin-left: auto;
-    margin-right: auto;
-	padding-top: 70px;	
-} 
-
-@-webkit-keyframes flipInY { 
-    0% { 
-        -webkit-transform: perspective(400px) rotateY(90deg); 
-        opacity: 0; 
-    } 
-    40% { 
-        -webkit-transform: perspective(400px) rotateY(-10deg); 
-    } 
-    70% { 
-        -webkit-transform: perspective(400px) rotateY(10deg); 
-    } 
-    100% { 
-        -webkit-transform: perspective(400px) rotateY(0deg); 
-        opacity: 1; 
-    } 
-} 
 
 .nav a {
     text-decoration: none;
@@ -104,12 +65,9 @@ html {
         top: 10px;
     }
     
-    .t {
-        width: 6%;
-    }
-    
-    .facebook {
-        width: 6%;
+    .circle {
+        width: 40%;
+        margin-top: 65px;
     }
 }
  
@@ -118,13 +76,9 @@ html {
         width: 20%;
     }
     
-    .t {
-        top: 10px;
-        width: 5%;
-    }
-    
-    .facebook {
-        top: 10px;
-        width: 5%;
+    .circle {
+        width: 40%;
+        margin-top: 70px;
+        margin-left: 70px;
     }
 }
