@@ -19,7 +19,7 @@ html {
 }
 
 .circle {
-    margin-left: 65px;
+    margin-left: 60px;
     margin-top: 80px;
     width: 100px;
     -webkit-animation: pulse 20s linear infinite;
