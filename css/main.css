@@ -1,9 +1,21 @@
 html {
     box-sizing: border-box;
+    background: url(../images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
+}
+
+.body {
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: Nunito;
 }
 
 .nav {
@@ -16,20 +28,14 @@ html {
     font-size: 12px;
     text-decoration: none;
     display: block;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
 }
 
 .nav a {
     text-decoration: none;
     color: #393c97;
-}
-
-.slide {
-    position: relative;
-    padding: 60vh 10%;
-    min-height: 100vh;
-    width: 100vw;
-    box-sizing: border-box;
-	transform-style: inherit;
 }
 
 .logo {
@@ -51,21 +57,6 @@ html {
 	margin-left: auto;
     margin-right: auto;
 } 
-
-.slide:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right:0;
-}
-
-.slide1:before {
-    background-color: #fff;
-    transform: translateZ(-1px) scale(2);
-    z-index:-1;
-}
 
 @-webkit-keyframes flipInY { 
     0% { 
@@ -118,17 +109,12 @@ html {
     20% { transform: scale(1.2); }
 }
 
-html { 
-    background: url(../images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 @media only screen and (min-width: 10em) { 
     .t {
         width: 40px;
+    }
+    .social {
+        margin-top: 30px;
     }
     .fb {
         width: 40px;
