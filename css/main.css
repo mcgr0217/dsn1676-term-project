@@ -29,7 +29,6 @@ html {
     text-decoration: none;
     display: block;
     position: fixed;
-    z-index: 10000;
     width: 100%;
 }
 
@@ -46,6 +45,10 @@ html {
     top: 50px;
     -webkit-animation: pulse 20s linear infinite;
     animation: pulse 20s linear infinite;
+}
+
+.fb {
+    margin-top: 80px;
 }
 
 .animated {
