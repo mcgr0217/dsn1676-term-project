@@ -11,7 +11,7 @@ html {
     box-sizing: inherit;
 }
 
-.body {
+body {
     padding: 0;
     margin: 0;
 }
@@ -44,21 +44,15 @@ html {
     animation: pulse 20s linear infinite;
 }
 
-.fb {
-    margin-top: 80px;
-}
-
 .scroll {
-    margin-top: 200px;
-    margin-left: 145px;
     width: 20%;
 }
 
 .bar {
-    background-color: #fff;
-    opacity: 0.8;
+    background-color: rgba(255,255,255,0.5);
     padding: 0;
-    margin: 0;
+    margin-top: 100px;
+    text-align: center;
 }  
 
 .animated {
@@ -106,6 +100,8 @@ html {
 } 
 
 .flipInY { 
+    -webkit-animation-duration: 6s; 
+    animation-duration: infinite 6s;
     -webkit-backface-visibility: visible !important; 
     -webkit-animation-name: flipInY; 
     backface-visibility: visible !important; 
@@ -161,7 +157,7 @@ html {
     
     .scroll {
         width: 15%;
-        margin-left: 350px;
+        xmargin-left: 350px;
     }
 }
  
@@ -183,6 +179,6 @@ html {
     
     .scroll {
         width: 10%;
-        margin-left: 500px;
+        xmargin-left: 500px;
     }
 }
