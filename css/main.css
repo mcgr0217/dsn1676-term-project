@@ -12,23 +12,20 @@ html {
 }
 
 .body {
-    transform-style: preserve-3d;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    font-family: Nunito;
+    padding: 0;
+    margin: 0;
 }
 
 .nav {
     float: right;
-    font-family: 'Varela Round', sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 3px;
+    margin: 5px;
     letter-spacing: 4px;
     font-size: 12px;
     text-decoration: none;
-    display: block;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -50,6 +47,19 @@ html {
 .fb {
     margin-top: 80px;
 }
+
+.scroll {
+    margin-top: 200px;
+    margin-left: 145px;
+    width: 20%;
+}
+
+.bar {
+    background-color: #fff;
+    opacity: 0.8;
+    padding: 0;
+    margin: 0;
+}  
 
 .animated {
     -webkit-animation-duration: 6s; 
@@ -148,20 +158,31 @@ html {
     .fb {
         width: 6%;
     }
+    
+    .scroll {
+        width: 15%;
+        margin-left: 350px;
+    }
 }
  
 @media only screen and (min-width: 60em) { 
     .logo {
         width: 20%;
+        margin-top: 30px;
     }
     
     .t {
-        top: 10px;
+        top: 20px;
         width: 5%;
     }
     
     .facebook {
-        top: 10px;
+        top: 20px;
         width: 3%;
+    }
+    
+    .scroll {
+        width: 10%;
+        margin-left: 500px;
     }
 }
