@@ -34,6 +34,11 @@ body {
     color: #393c97;
 }
 
+.box {
+    background-color: #fff;
+    padding: 6rem;
+}
+
 .logo {
     position: absolute;
     width: 35%;
@@ -46,6 +51,7 @@ body {
 
 .scroll {
     width: 20%;
+    transition: 
 }
 
 .bar {
