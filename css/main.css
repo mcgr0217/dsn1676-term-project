@@ -51,14 +51,14 @@ body {
 }
 
 .t:hover {
-    padding: 2px;
+    padding: 3px;
     border-radius: 30px;
     transition-duration: 0.2s;
     transition-property: all;
 }
 
 .fb:hover {
-    padding: 2px;
+    padding: 3px;
     border-radius: 30px;
     transition-duration: 0.2s;
     transition-property: all;
