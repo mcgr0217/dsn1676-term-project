@@ -86,7 +86,7 @@ body {
     width: 35%;
     height: 35%;
     left: 120px;
-    top: 50px;
+    top: 35px;
     -webkit-animation: pulse 20s linear infinite;
     animation: pulse 20s linear infinite;
 }
@@ -167,7 +167,7 @@ body {
     }
     
     .social {
-        margin-top: 40px;
+        margin-top: 50px;
     }
     
     .fb {
@@ -176,22 +176,28 @@ body {
     }
     
     .logo {
-        margin-top: 12px;
+        margin-top: 10px;
+        margin-left: 1px;
     }
 }
 
 @media only screen and (min-width: 25em) {
     .t {
-        width: 30px;
+        width: 40px;
     }
     
     .fb {
-        width: 30px;
+        width: 40px;
         margin-top: 15px;
     }
     
     .scroll {
         width: 8%;
+    }
+    
+    .logo {
+        margin-top: 5px;
+        margin-left: 1px;
     }
 }
 
@@ -202,11 +208,11 @@ body {
     }
     
     .t {
-        width: 6%;
+        width: 10%;
     }
     
     .fb {
-        width: 6%;
+        width: 10%;
     }
     
     .scroll {
@@ -227,7 +233,7 @@ body {
     
     .facebook {
         top: 20px;
-        width: 3%;
+        width: 5%;
     }
     
     .scroll {
