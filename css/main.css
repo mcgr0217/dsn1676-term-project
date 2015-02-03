@@ -163,7 +163,7 @@ body {
 
 @media only screen and (min-width: 10em) { 
     .t {
-        width: 40px;
+        width: 30px;
     }
     
     .social {
@@ -171,7 +171,7 @@ body {
     }
     
     .fb {
-        width: 40px;
+        width: 30px;
         margin-top: 8px;
     }
     
@@ -183,12 +183,16 @@ body {
 
 @media only screen and (min-width: 25em) {
     .t {
-        width: 40px;
+        width: 30px;
     }
     
     .fb {
-        width: 40px;
-        margin-top: 15px;
+        width: 30px;
+        margin-top: 20px;
+    }
+    
+    .social {
+        margin-top: 70px; 
     }
     
     .scroll {
@@ -196,8 +200,8 @@ body {
     }
     
     .logo {
-        margin-top: 5px;
-        margin-left: 1px;
+        margin-top: 4px;
+        width: 30%;
     }
 }
 
@@ -205,6 +209,10 @@ body {
     .logo {
         width: 20%;
         top: 4px;
+    }
+    
+    .social {
+        margin-top: 40px;
     }
     
     .t {
@@ -227,12 +235,10 @@ body {
     }
     
     .t {
-        top: 20px;
         width: 5%;
     }
     
     .facebook {
-        top: 20px;
         width: 5%;
     }
     
