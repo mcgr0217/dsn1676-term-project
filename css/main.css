@@ -190,7 +190,8 @@ body {
     }
     
     .social {
-        margin-top: 70px; 
+        margin-top: 65px;
+        margin-right: 80px;
     }
     
     .scroll {
@@ -199,52 +200,50 @@ body {
     
     .logo {
         margin-top: 60px;
-        margin-left: 60px;
-        width: 20%;
-    }
-}
-
-@media only screen and (min-width: 40em) { 
-    .logo {
-        width: 8%;
-        margin-top: 50px;
-        margin-left: 200px;
-    }
-    
-    .social {
-        margin-top: 70px;
-    }
-    
-    .t {
-        width: 10%;
-    }
-    
-    .fb {
-        width: 10%;
-    }
-    
-    .scroll {
-        width: 5%;
+        margin-left: 55px;
+        width: 15%;
     }
 }
  
+@media only screen and (min-width: 40em) {
+    .logo {
+        width: 8%;
+        margin-top: 70px;
+        margin-left: 180px;
+    }
+    
+    .social {
+        margin-top: 65px;
+        margin-right: 150px;
+    }
+    
+    .t {
+        width: 15%;
+    }
+    
+    .fb {
+        width: 15%;
+    }
+}
+
 @media only screen and (min-width: 60em) { 
     .logo {
-        width: 10%;
+        width: 8%;
         margin-top: 60px;
         margin-left: 300px;
     }
     
     .social {
-        margin-top: 65px;
+        margin-top: 70px;
+        margin-right: 400px;
     }
     
     .t {
-        width: 8%;
+        width: 25%;
     }
     
     .fb {
-        width: 8%;
+        width: 25%;
     }
     
     .scroll {
