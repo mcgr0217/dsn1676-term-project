@@ -44,6 +44,10 @@ h2 {
     color: #1ba99f;
 }
 
+.nav-label {
+    cursor: pointer;
+}
+
 .nav-check {
     position: absolute;
     top: -3em;
