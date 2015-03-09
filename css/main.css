@@ -46,11 +46,19 @@ h2 {
 
 .nav-label {
     cursor: pointer;
+    width: 40px;
+    display: inline-block;
+    margin: 1rem;
 }
 
 .nav-check {
     position: absolute;
     top: -3em;
+}
+
+.nav-label img {
+    display: block;
+    width: 100%;
 }
 
 .nav-check:checked ~ .nav {
