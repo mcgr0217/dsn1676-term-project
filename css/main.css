@@ -151,6 +151,13 @@ h2 {
     color: #fff;
 }
 
+.image:hover {
+    padding: 3px;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    transition-property: all;
+}
+
 .animated {
     -webkit-animation-duration: 6s; 
     animation-duration: infinite 6s; 
