@@ -45,10 +45,14 @@
         </div>
             <div class="panel">
                 <h2>Photography</h2>
-                <div class="grid">
+                <div class="grid thumbnails">
                     <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-                        <img class="photo" src="images/photo.jpg" alt="Photography Image">
-                        <img class="photo" src="images/photo2.jpg" alt="Photography Image 2">
+                        <a href="images/photo.jpg">
+                            <img class="photo" src="images/photo.jpg" alt="Photography Image">
+                        </a>
+                        <a href="images/photo2.jpg">
+                            <img class="photo" src="images/photo2.jpg" alt="Photography Image 2">
+                        </a>
                     </div>
                     <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
                         <img class="photo" src="images/photo3.jpg" alt="Photography Image 3">
@@ -56,6 +60,15 @@
                     </div>
                 </div>
             </div>
+    
+            <div class="lightbox" data-state="hidden">
+                <div class="lightbox-container">
+                    <div class="lightbox-content">
+                    <img class="lightbox-img" src="images/photo.jpg" alt="Photography Image 1">
+                </div>
+                </div>
+            </div>
+    
             <div class="panel">
                 <h2>Motion Graphics</h2>
                 <div class="grid">
