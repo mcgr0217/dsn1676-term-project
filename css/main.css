@@ -18,6 +18,15 @@ body {
     background-color: rgba(255,255,255,0.5);
 }
 
+.box {
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+    background-color: #1ba99f;
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+}
+
 .nav {
     font-family: sans-serif;
     font-weight: bold;
