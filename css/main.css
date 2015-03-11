@@ -84,7 +84,7 @@ h2 {
 
 .panel {
     background-color: #fff;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 [hidden] {
@@ -92,11 +92,11 @@ h2 {
 }
 
 .t {
-    text-align: right;
+    text-align: center;
 }
 
 .f {
-    text-align: right;
+    text-align: center;
 }
 
 .t:hover {
@@ -136,6 +136,7 @@ h2 {
     left: 120px;
     -webkit-animation: pulse 20s linear infinite;
     animation: pulse 20s linear infinite;
+    cursor: pointer;
 }
 
 .bar {
@@ -221,38 +222,9 @@ h2 {
     20% { transform: scale(1.2); }
 }
 
-@media only screen and (min-width: 10em) { 
-    .t {
-        width: 30px;
-    }
-    
+@media only screen and (min-width: 20em) {
     .social {
-        margin-top: 50px;
-    }
-    
-    .fb {
-        width: 30px;
-        margin-top: 8px;
-    }
-    
-    .logo {
-        margin-top: 100px;
-    }
-}
-
-@media only screen and (min-width: 25em) {
-    .t {
-        width: 30px;
-    }
-    
-    .fb {
-        width: 30px;
-        margin-top: 20px;
-    }
-    
-    .social {
-        margin-top: 65px;
-        margin-right: 80px;
+        margin-top: 30px;
     }
     
     .scroll {
@@ -260,21 +232,21 @@ h2 {
     }
     
     .logo {
-        margin-top: 60px;
-        margin-left: 55px;
-        width: 15%;
+        margin-top: 40px;
+        margin-left: 65px;
+        width: 20%;
     }
 }
  
 @media only screen and (min-width: 40em) {
     .logo {
-        width: 8%;
-        margin-top: 70px;
-        margin-left: 180px;
+        width: 15%;
+        margin-top: 50px;
+        margin-left: 150px;
     }
     
     .social {
-        margin-top: 65px;
+        margin-top: 30px;
         margin-right: 150px;
     }
     
@@ -290,21 +262,12 @@ h2 {
 @media only screen and (min-width: 60em) { 
     .logo {
         width: 8%;
-        margin-top: 60px;
-        margin-left: 300px;
+        margin-left: 320px;
     }
     
     .social {
-        margin-top: 70px;
+        margin-top: 30px;
         margin-right: 400px;
-    }
-    
-    .t {
-        width: 25%;
-    }
-    
-    .fb {
-        width: 25%;
     }
     
     .scroll {
