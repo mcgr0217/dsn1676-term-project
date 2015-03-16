@@ -192,7 +192,10 @@ h2 {
 .lightbox-content {
     position: absolute;
     width: calc(100% - 2em);
-    transform: translate(-50%, -50%);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    max-width: 500px;
 }
     
 .lightbox-container {
@@ -229,6 +232,9 @@ h2 {
     }
     .panel {
         padding: 3rem;
+    }
+    .lightbox-content {
+        xmargin-left: 20%;
     }
 }
 
