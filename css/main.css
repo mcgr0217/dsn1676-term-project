@@ -41,7 +41,9 @@ body {
     text-decoration: none;
     position: absolute;
     width: 100%;
-    display: none;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    transition: all 250ms ease-in-out;
 }
 
 .photo {
@@ -82,7 +84,8 @@ h2 {
 }
 
 .nav-check:checked ~ .nav {
-    display: block;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 .panel {
@@ -110,11 +113,6 @@ h2 {
 .social {
     text-align: right;
 }
-
-.js-box-hide {
-    -webkit-animation: pulse 1s ease-out;
-    animation: pulse 1s ease-out;
-}
     
 .logo {
     position: absolute;
@@ -127,19 +125,10 @@ h2 {
 .bar {
     background-color: rgba(255,255,255,0.5);
     padding: 0;
-    margin-top: 200px;
+    margin-top: 300px;
     text-align: center;
 }
 
-.nav {
-    padding: 0;
-    margin: 0;
-    -webkit-animation: pulse 1s ease-in;
-    animation: pulse 1s ease-in;
-    
-    -webkit-animation: pulse 1s ease-out;
-    animation: pulse 1s ease-out;
-}
 
 .image:hover {
     padding: 3px;
@@ -224,7 +213,7 @@ h2 {
         width: 7%;
     }
     .logo {
-        margin-top: 40px;
+        margin-top: 60px;
         width: 20%;
         left: 40%;
     }
@@ -233,7 +222,7 @@ h2 {
 @media only screen and (min-width: 40em) {
     .logo {
         width: 15%;
-        margin-top: 50px;
+        margin-top: 60px;
         left: 42.5%;
     }
     .scroll {
@@ -246,6 +235,7 @@ h2 {
 
 @media only screen and (min-width: 60em) { 
     .logo {
+        margin-top: 70px;
         width: 8%;
         left: 46%;
     }

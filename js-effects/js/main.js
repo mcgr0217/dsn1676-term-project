@@ -1,15 +1,9 @@
-var $btnShowHide = $(".btn-show-hide");
-var $box = $(".box");
 var $thumbs = $(".thumbnails");
 var $lbImg = $(".lightbox-img");
 var $lb = $(".lightbox");
 var $btnClose = $(".btn-close");
 var $tabs = $(".tabs");
 var $panel = $(".panel");
-
-$btnShowHide.on("click", function () {
-    $box.toggleClass("js-box-hide");
-});
 
 $thumbs.on("click", "a", function (e) {
     e.preventDefault();
