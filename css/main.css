@@ -222,59 +222,6 @@ h2 {
     20% { transform: scale(1.2); }
 }
 
-@media only screen and (min-width: 20em) {
-    .social {
-        margin-top: 30px;
-    }
-    
-    .scroll {
-        width: 8%;
-    }
-    
-    .logo {
-        margin-top: 40px;
-        margin-left: 65px;
-        width: 20%;
-    }
-}
- 
-@media only screen and (min-width: 40em) {
-    .logo {
-        width: 15%;
-        margin-top: 50px;
-        margin-left: 150px;
-    }
-    
-    .social {
-        margin-top: 30px;
-        margin-right: 150px;
-    }
-    
-    .t {
-        width: 15%;
-    }
-    
-    .fb {
-        width: 15%;
-    }
-}
-
-@media only screen and (min-width: 60em) { 
-    .logo {
-        width: 8%;
-        margin-left: 320px;
-    }
-    
-    .social {
-        margin-top: 30px;
-        margin-right: 400px;
-    }
-    
-    .scroll {
-        width: 5%;
-    }
-}
-
 .thumbnails { 
     display: inline-block;
     margin: 0;
@@ -294,7 +241,7 @@ h2 {
     top: 0;
     background-color: rgba(0,0,0,0.5);
     opacity: 0;
-    transition: all 1s linear;
+    transition: all 400ms linear;
 }
 
 .lightbox[data-state="visible"] {
@@ -324,4 +271,41 @@ h2 {
     border-radius: 6px;
     box-shadow: 1px 1px 4px #000;
     padding: 1em;
+}
+
+@media only screen and (min-width: 20em) {
+    .scroll {
+        width: 8%;
+    }
+    
+    .logo {
+        margin-top: 40px;
+        margin-left: 65px;
+        width: 20%;
+    }
+}
+ 
+@media only screen and (min-width: 40em) {
+    .logo {
+        width: 15%;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    .social {
+        margin-top: 30px;
+        margin-right: 150px;
+    }
+    .panel {
+        padding: 3rem;
+    }
+}
+
+@media only screen and (min-width: 60em) { 
+    .logo {
+        width: 8%;
+        margin-left: 330px;
+    }
+    .scroll {
+        width: 5%;
+    }
 }
