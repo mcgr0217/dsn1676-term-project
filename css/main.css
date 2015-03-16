@@ -110,6 +110,11 @@ h2 {
 .social {
     text-align: right;
 }
+
+.js-box-hide {
+    -webkit-animation: pulse 1s ease-out;
+    animation: pulse 1s ease-out;
+}
     
 .logo {
     position: absolute;
@@ -126,11 +131,14 @@ h2 {
     text-align: center;
 }
 
-.tabs {
+.nav {
     padding: 0;
     margin: 0;
-    -webkit-transition: all 250ms ease-in;
-    transition: all 2s ease-in;
+    -webkit-animation: pulse 1s ease-in;
+    animation: pulse 1s ease-in;
+    
+    -webkit-animation: pulse 1s ease-out;
+    animation: pulse 1s ease-out;
 }
 
 .image:hover {
