@@ -238,7 +238,7 @@ h2 {
     }
 }
  
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 40em) {
     .logo {
         width: 15%;
         margin-top: 50px;
