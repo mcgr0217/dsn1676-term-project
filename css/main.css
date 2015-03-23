@@ -20,15 +20,16 @@ body {
 
 button {
 	background-color: #1ba99f;
-	border-radius: 5px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
+    text-decoration: none;
 	border: none;
-	font-size:16px;
+    color: #fff;
 	font-weight:400;
 	height: 32px;
 	padding: 4px 16px;
-    letter-spacing: 4px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .box {
@@ -71,6 +72,7 @@ h2 {
     color: #1ba99f; 
     font-family: sans-serif;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .nav a {
@@ -111,7 +113,7 @@ h2 {
 }
 
 .scroll:hover {
-    padding: 10px; 
+    padding: 8px; 
 }
 
 .scroll {
@@ -137,8 +139,8 @@ h2 {
 
 .bar {
     background-color: rgba(255,255,255,0.5);
-    padding: 0;
-    margin-top: 300px;
+    padding: 1rem;
+    margin-top: 200px;
     text-align: center;
 }
 
@@ -232,6 +234,9 @@ h2 {
         width: 20%;
         left: 40%;
     }
+    .panel {
+        padding: 1rem;
+    }
 }
  
 @media only screen and (min-width: 40em) {
@@ -245,9 +250,6 @@ h2 {
     }
     .panel {
         padding: 3rem;
-    }
-    .lightbox-content {
-        xmargin-left: 20%;
     }
 }
 
