@@ -113,7 +113,7 @@ h2 {
 }
 
 .scroll:hover {
-    padding: 8px; 
+    padding: 5px; 
 }
 
 .scroll {
@@ -155,11 +155,11 @@ h2 {
 }
 
 .in:hover {
-    padding: 8px;
+    padding: 5px;
 }
 
 .fb:hover {
-    padding: 8px;
+    padding: 5px;
 }
 
 .in {
@@ -259,12 +259,46 @@ h2 {
     padding: 1em;
 }
 
-#fb {
+#darker {
     transition: all 1s linear;
 }
 
-.js-active #scroll {
-    fill: #8ac5bf;
+.js-active #darker {
+    fill: #fff;
+}
+
+#arrow {
+    transition: all 1s linear;
+}
+
+.js-active #arrow {
+    fill: #01A79D;
+}
+
+.sttt {
+    fill:#84C3BF;
+} 
+
+.st00 {
+    fill:#01A79D;
+}
+
+.st222 {
+    fill:none;
+    stroke:#84C3BF;
+    stroke-width:14;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+} 
+
+.st333 {
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-width:13;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
 }
 
 @media only screen and (min-width: 20em) {
@@ -302,6 +336,12 @@ h2 {
         left: 46%;
     }
     .scroll {
-        width: 4%;
+      width: 4%;
+    }
+    .fb {
+        width: 4%
+    }
+    .in {
+        width: 4%
     }
 }
