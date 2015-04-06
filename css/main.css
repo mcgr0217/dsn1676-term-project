@@ -259,6 +259,14 @@ h2 {
     padding: 1em;
 }
 
+#fb {
+    transition: all 1s linear;
+}
+
+.js-active #scroll {
+    fill: #8ac5bf;
+}
+
 @media only screen and (min-width: 20em) {
     .scroll {
         width: 7%;
