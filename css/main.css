@@ -144,6 +144,20 @@ h2 {
     text-align: center;
 }
 
+.white {
+    background-color: #fff; 
+    padding: 1rem;
+    text-align: center;
+}
+
+.in {
+    width: 3%;
+}
+
+.fb {
+    width: 3%;
+}
+
 .image:hover {
     padding: 3px;
     border-radius: 30px;
