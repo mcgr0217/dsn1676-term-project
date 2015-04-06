@@ -150,12 +150,28 @@ h2 {
     text-align: center;
 }
 
+.in:hover {
+    padding: 8px;
+}
+
+.fb:hover {
+    padding: 8px;
+}
+
 .in {
     width: 3%;
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
 }
 
 .fb {
     width: 3%;
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
 }
 
 .image:hover {
