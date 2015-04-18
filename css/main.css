@@ -73,11 +73,30 @@ button {
     transition: all 250ms ease-in;
 }
 
+p {
+	text-align: center;
+	padding: 10px 10% 60px 10%; 
+	margin: 0;
+    font-family: "Roboto Slab", serif;
+	color: #1ba99f;
+    font-size: 15px;
+}
+
 .services {
     background-color: #fff;
-    padding: 3rem;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    margin-bottom: 4rem;
     text-align: center;
+    text-decoration: none;
+}
+
+.copyright {
+	text-align: center;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	color: #1ba99f;
+    font-weight: 10;
+	margin: 0;
 }
 
 .nav {
@@ -125,7 +144,7 @@ h3 {
 .icon {
     width: 10rem;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .nav a {

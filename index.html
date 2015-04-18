@@ -12,7 +12,8 @@
 <body>
     <ul class="skip-links">
 		<li><a href="#navigation">Jump to navagation</a></li>
-		<li><a href="#banner">Jump to banner</a></li>
+		<li><a href="#intro">Jump to Intro</a></li>
+        <li><a href="#services">Jump to main services</a></li>
 		<li><a href="#main">Jump to main content</a></li>
 		<li><a href="#contact">Jump to footer</a></li>
 	</ul>
@@ -42,7 +43,7 @@
                 </svg>
             </div>
         </div>
-        <div role="banner" id="banner" id="tab-1">
+        <div role="banner" id="into" id="tab-1">
             <div class="meet">
                 <h2>Hey!</h2>
                 <h3>Welcome to my site, I'm a Graphic Designer In Ottawa, ON and design is my biggest passion.</h3>
@@ -62,12 +63,31 @@
             </a>
             </div>
         </div>
-        <div class="services" id="tab-2">
-            <h2>Services</h2>
-                <img class="icon" src="images/Photography.svg" alt="Photography">
-                <img class="icon" src="images/design.svg" alt="Graphic Design">
-                <img class="icon" src="images/motion.svg" alt="Motion">
-        </div>
+        <section class="services" id="services">
+            <div class="services" id="tab-2">
+                <h2>Services</h2>
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
+                    <a href="#tab-3">
+                    <img src="images/Photography.svg" class="icon" alt="Photography Icon"></a>
+                    <p class="caption">Photography</p>
+                    <span class="underline"></span>
+                </div>
+
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
+                    <a href="https://www.behance.net/McgregorS">
+                    <img src="images/design.svg" class="icon" alt="Design Icon"></a>
+                    <p class="caption">Graphic Design</p>
+                    <span class="underline"></span>
+                </div>
+
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
+                    <a href="https://vimeo.com/user18849594">
+                    <img src="images/motion.svg" class="icon" alt="Motion Icon"></a>
+                    <p class="caption">Motion</p>
+                    <span class="underline"></span>
+                </div>
+            </div>
+        </section>
         <div class="panel" id="tab-3">
             <main id="main" role="main">
                 <h2>Photography</h2>
@@ -130,6 +150,7 @@
             </div>
         <div class="panel">
             <h2>Thanks for stopping by!</h2>
+            <p class="copyright">© 2015 Samantha McGregor. All Rights Reserved.</p>
         </div>
     </footer>
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
