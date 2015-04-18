@@ -73,6 +73,13 @@ button {
     transition: all 250ms ease-in;
 }
 
+.services {
+    background-color: #fff;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
 .nav {
     font-family: sans-serif;
     font-weight: bold;
@@ -101,8 +108,8 @@ button {
 h2 {
     text-align: center;
     color: #1ba99f; 
-    font-family: sans-serif;
-    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
     text-decoration: none;
     padding: 0;
 }
@@ -110,9 +117,15 @@ h2 {
 h3 {
     text-align: center;
     color: #1ba99f; 
-    font-family: serif;
-    font-weight: 300;
+    font-family: "Roboto Slab", serif;
+    font-weight: 200;
     text-decoration: none;
+}
+
+.icon {
+    width: 10rem;
+    text-align: center;
+    padding: 2rem;
 }
 
 .nav a {
