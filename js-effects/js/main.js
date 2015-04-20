@@ -25,6 +25,8 @@ $('.nav').localScroll();
 
 $('.bar').localScroll();
 
+$('.services').localScroll();
+
 $arrow.waypoint(function () {
     $arrow.toggleClass("js-active");
 }, { offset: "30%" } );
