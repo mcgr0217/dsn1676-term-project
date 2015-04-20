@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" width="649.8" height="649.8" viewBox="0 0 649.8 649.8">
-  <style>
-    .st0{fill:none;stroke:#1BA99F;stroke-width:14;stroke-miterlimit:10;} .st1{fill:#49BAB2;} .st2{fill:#DBF1F0;} .st3{fill:#76CBC5;} .st4{fill:none;stroke:#1BA99F;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-  </style>
-  <circle cx="324.9" cy="324.9" r="317.9" class="st0"/>
-  <path d="M119 182.9h413.8v246.6H119z" class="st1"/>
-  <circle cx="330" cy="307.7" r="89" class="st2"/>
-  <path d="M301.3 271.2v84l79-45.5z" class="st3"/>
-  <path d="M121.3 467.2h414" class="st4"/>
-  <circle cx="183.3" cy="468" r="23.6" class="st3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="649.8" height="649.8" viewBox="-38 36.2 649.8 649.8">
+  <circle cx="286.9" cy="361.1" r="317.9" fill="none" stroke="#1BA99F" stroke-width="10" stroke-miterlimit="10"/>
+  <path fill="#1BA99F" d="M81 219.1h413.8v246.6H81V219.1z"/>
+  <circle cx="292" cy="343.9" r="89" fill="#B9DCD9"/>
+  <path fill="#FFF" d="M263.3 307.4v84l79-45.5-79-38.5z"/>
+  <path fill="none" stroke="#1BA99F" stroke-width="8" stroke-miterlimit="10" d="M83.3 503.4h414" stroke-linejoin="round"/>
+  <circle cx="145.3" cy="504.2" r="23.6" fill="#8AC5BF"/>
 </svg>
