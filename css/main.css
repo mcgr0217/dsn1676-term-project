@@ -129,15 +129,16 @@ h2 {
     color: #1ba99f; 
     font-family: "Oswald", sans-serif;
     font-weight: 200;
+    letter-spacing: 2px;
     text-decoration: none;
     padding: 0;
 }
 
-h3 {
+h4 {
     text-align: center;
     color: #1ba99f; 
     font-family: "Roboto Slab", serif;
-    font-weight: 200;
+    font-weight: 100;
     text-decoration: none;
 }
 
@@ -169,11 +170,12 @@ h3 {
 
 .nava {
     background-color: #fff;
+    margin: 1rem;
 }
 
 .nav-check {
     position: absolute;
-    top: -1em;
+    top: -4em;
 }
 
 .nav-label img {
