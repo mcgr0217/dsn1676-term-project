@@ -100,15 +100,15 @@ p {
 }
 
 .nav {
-    font-family: sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    top: 0.5em;
+    top: 1em;
     margin-left: 2px;
     margin-right: 10px;
-    letter-spacing: 4px;
-    font-weight: 500;
+    letter-spacing: 5px;
+    font-weight: 200;
     font-size: 12px;
     text-decoration: none;
     position: absolute;
