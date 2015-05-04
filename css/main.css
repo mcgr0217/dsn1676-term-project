@@ -16,9 +16,10 @@ h1 {
     text-align: center;
     color: #1ba99f; 
     font-family: "Oswald", sans-serif;
-    font-weight: 200;
+    font-weight: lighter;
     letter-spacing: 2px;
     text-decoration: none;
+    bottom: 30px;
     padding: 0;
 }
 
@@ -70,7 +71,7 @@ button {
     margin-right: auto;
     padding: 2em;
     line-height: 2em;
-    margin-top: 20rem;
+    margin-top: 25rem;
     background-color: #fff;
 }
 
@@ -201,7 +202,7 @@ h4 {
 
 .panel {
     background-color: #fff;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 [hidden] {
@@ -227,6 +228,7 @@ h4 {
     
 .logo {
     position: absolute;
+    top: 140px;
     width: 10%;
     left: 45%;
     -webkit-animation: pulse 20s linear infinite;
@@ -236,7 +238,7 @@ h4 {
 .bar {
     background-color: rgba(255,255,255,0.5);
     padding: 1rem;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     text-align: center;
 }
 
